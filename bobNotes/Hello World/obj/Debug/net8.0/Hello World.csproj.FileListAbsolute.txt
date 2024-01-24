@@ -1,0 +1,15 @@
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/bin/Debug/net8.0/Hello World
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/bin/Debug/net8.0/Hello World.deps.json
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/bin/Debug/net8.0/Hello World.runtimeconfig.json
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/bin/Debug/net8.0/Hello World.dll
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/bin/Debug/net8.0/Hello World.pdb
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.GeneratedMSBuildEditorConfig.editorconfig
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.AssemblyInfoInputs.cache
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.AssemblyInfo.cs
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.csproj.CoreCompileInputs.cache
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.sourcelink.json
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.dll
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/refint/Hello World.dll
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.pdb
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/Hello World.genruntimeconfig.cache
+/home/bobith/Documents/ForageGame/bobNotes/Hello World/obj/Debug/net8.0/ref/Hello World.dll
