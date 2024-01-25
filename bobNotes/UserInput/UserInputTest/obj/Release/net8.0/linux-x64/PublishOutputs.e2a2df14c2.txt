@@ -1,0 +1,2 @@
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/publish/UserInputTest.pdb
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/publish/UserInputTest

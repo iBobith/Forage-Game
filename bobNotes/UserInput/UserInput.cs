@@ -7,11 +7,11 @@
 using System;
 
 namespace username {
-    class program {
+    class myProgram {
         static void Main(string[] args) {
             Console.WriteLine("Enter Username:");           // Type your username and press enter;
 
-            string userName = Console.ReadLine();           // Create string variable and get user input from keyboard and store it in the variable;
+            string? userName = Console.ReadLine();           // Create string variable and get user input from keyboard and store it in the variable;
 
             Console.WriteLine("Username is: " + userName);  // Print the value of the variable (userName), which will display the input value;
         }

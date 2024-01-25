@@ -1,0 +1,15 @@
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/UserInputTest
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/UserInputTest.deps.json
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/UserInputTest.runtimeconfig.json
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/UserInputTest.dll
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Release/net8.0/linux-x64/UserInputTest.pdb
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.AssemblyInfoInputs.cache
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.AssemblyInfo.cs
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.csproj.CoreCompileInputs.cache
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.sourcelink.json
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.dll
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/refint/UserInputTest.dll
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.pdb
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/UserInputTest.genruntimeconfig.cache
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Release/net8.0/linux-x64/ref/UserInputTest.dll

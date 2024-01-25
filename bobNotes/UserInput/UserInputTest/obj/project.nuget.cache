@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vraBsS91958QNQaPmoa3odsgDf1JYhcILq5QZ8cePwxB29esJjn3ZKJA6faouf4r9kH3T+Al7z1i9D+GCeXq3g==",
+  "success": true,
+  "projectFilePath": "/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/UserInputTest.csproj",
+  "expectedPackageFiles": [
+    "/home/bobith/.nuget/packages/microsoft.net.illink.tasks/8.0.1/microsoft.net.illink.tasks.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

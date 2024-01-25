@@ -1,0 +1,15 @@
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Debug/net8.0/UserInputTest
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Debug/net8.0/UserInputTest.deps.json
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Debug/net8.0/UserInputTest.runtimeconfig.json
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Debug/net8.0/UserInputTest.dll
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/bin/Debug/net8.0/UserInputTest.pdb
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.AssemblyInfoInputs.cache
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.AssemblyInfo.cs
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.csproj.CoreCompileInputs.cache
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.sourcelink.json
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.dll
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/refint/UserInputTest.dll
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.pdb
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/UserInputTest.genruntimeconfig.cache
+/home/bobith/Documents/forageGame/bobNotes/UserInput/UserInputTest/obj/Debug/net8.0/ref/UserInputTest.dll
