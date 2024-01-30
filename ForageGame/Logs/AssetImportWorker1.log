@@ -1,0 +1,613 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #15~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan 12 18:54:30 UTC 2
+Kernel version:          6.5.0-15-generic
+Architecture:            x86_64
+Available memory:        15696 MB
+Using pre-set license
+Pro License: YES
+Desktop is 3456 x 2160 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/home/bobith/Documents/forageGame/ForageGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+33569
+Successfully changed project path to: /home/bobith/Documents/forageGame/ForageGame
+/home/bobith/Documents/forageGame/ForageGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [139680813319104] Host "[IP] 192.168.0.140 [Port] 0 [Flags] 2 [Guid] 3532180851 [EditorId] 3532180851 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.140) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [139680813319104] Host "[IP] 192.168.0.140 [Port] 0 [Flags] 2 [Guid] 3532180851 [EditorId] 3532180851 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.140) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 3,31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /home/bobith/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/bobith/Documents/forageGame/ForageGame/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) Xe Graphics (TGL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 23.0.4-0ubuntu1~22.04.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow
+_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -172487120
+Initialize mono
+Mono path[0] = '/home/bobith/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = '/home/bobith/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/bobith/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/bobith/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/bobith/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,010683 seconds.
+- Loaded All Assemblies, in  0,565 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,516 seconds
+Domain Reload Profiling: 1081ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (516ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0,877 seconds
+Refreshing native plugins compatible for Editor in 1,89 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,851 seconds
+Domain Reload Profiling: 1728ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2,81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (29,7 KB). Loaded Objects now: 3592.
+Memory consumption went from 196,9 MB to 196,9 MB.
+Total: 12,337244 ms (FindLiveObjects: 0,574441 ms CreateObjectMapping: 0,306478 ms MarkObjects: 10,964737 ms  DeleteObjects: 0,487507 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119,778598 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Cliffs_normal.jpg
+  artifactKey: Guid(5e2137d62de0b4846ac0dd23bc393af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Cliffs_normal.jpg using Guid(5e2137d62de0b4846ac0dd23bc393af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c316fc8fd2061a5f61ce1a810714ad78') in 0,356436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000070 seconds.
+  path: Assets/Fantasy Skybox FREE/Readme.txt
+  artifactKey: Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Readme.txt using Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b5efde1e3213adb2d3e896f47429d2c') in 0,005692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,001647 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_RockGrassy608c3929b87867c.terrainlayer
+  artifactKey: Guid(973c7cb7b8d7b814ca43c4a22576218f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_RockGrassy608c3929b87867c.terrainlayer using Guid(973c7cb7b8d7b814ca43c4a22576218f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40c74019c1e42c216546711859a544e9') in 0,025283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000090 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
+  artifactKey: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb0566d542a642e0899b36febad04fd9') in 0,028115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000209 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png
+  artifactKey: Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png using Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ebdc6a01a74c515395fa2a6b780a525') in 0,047556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000102 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat
+  artifactKey: Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat using Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fe06ec9576ec8310d1065cd6dc69451') in 0,016231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000052 seconds.
+  path: Assets/AQUAS-Lite/Models/WaterPlane.fbx
+  artifactKey: Guid(c9c3797c5d4107747a25bfa19fd7ae39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AQUAS-Lite/Models/WaterPlane.fbx using Guid(c9c3797c5d4107747a25bfa19fd7ae39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b74352f67b5ecb90dad301c318e17334') in 0,094783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000113 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/Demo.unity
+  artifactKey: Guid(4c3e41e086e6a544e994a004465add6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/Demo.unity using Guid(4c3e41e086e6a544e994a004465add6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7108022ce87ee89062612a0e944909e4') in 0,004346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000120 seconds.
+  path: Assets/AQUAS-Lite/Materials/AQUAS_Lite_Water_Backface.mat
+  artifactKey: Guid(6363f60797ab0fb49b1ff852b0978304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AQUAS-Lite/Materials/AQUAS_Lite_Water_Backface.mat using Guid(6363f60797ab0fb49b1ff852b0978304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1872e3244cfd56d754317d9b1164ddb5') in 0,083733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000035 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat
+  artifactKey: Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat using Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc30a623f707b9fca8e622406cf64317') in 0,035592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat
+  artifactKey: Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat using Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66ceac7cedcf31a9d1e84cb58e527c4f') in 0,011977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000116 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat
+  artifactKey: Guid(b1026180dc7c2da46ae84254ddc371da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat using Guid(b1026180dc7c2da46ae84254ddc371da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2b63f0eaccb824b04b7c6f91cb9070e') in 0,028837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000040 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunset_Cubemap.mat
+  artifactKey: Guid(9153b2dbef5d0b0428e60c092d1b4a12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunset_Cubemap.mat using Guid(9153b2dbef5d0b0428e60c092d1b4a12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b01a8ce05acc31e136acecf24ed1574') in 0,030200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000050 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Cubemap.mat
+  artifactKey: Guid(20e1111adc6498e499e72f734cde4793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Cubemap.mat using Guid(20e1111adc6498e499e72f734cde4793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89489499c7d925c0210abaae8598786c') in 0,023797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000067 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.mat
+  artifactKey: Guid(67950864b84c5db4f9eee7ca51c85571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.mat using Guid(67950864b84c5db4f9eee7ca51c85571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a954da8da39628aaf7f666ffa508a3b5') in 0,011396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000065 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat
+  artifactKey: Guid(cd1b8774e71770546bec980a3d98344a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat using Guid(cd1b8774e71770546bec980a3d98344a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2627b139a94712e41f302cf62908165c') in 0,027338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000035 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(37696d30ae64c824f9cd962547587f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer.terrainlayer using Guid(37696d30ae64c824f9cd962547587f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a976d0583293aecb6810bd7ef7aab755') in 0,007482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000247 seconds.
+  path: Assets/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs
+  artifactKey: Guid(25444af753bc0e745bd754d2d4e07afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs using Guid(25444af753bc0e745bd754d2d4e07afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3f07e466d43cd01a5fc7d7a25b08a81') in 0,010326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000166 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/TerrainRock.terrainlayer
+  artifactKey: Guid(ca948470117be2143a600fa882a2b77a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainRock.terrainlayer using Guid(ca948470117be2143a600fa882a2b77a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d6a816e6717bd829bcc948fdc5f09bb') in 0,043532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0,000047 seconds.
+  path: Assets/AQUAS-Lite/Shaders/AQUAS-Lite_Backface.shader
+  artifactKey: Guid(6c5f1c7411ec6004fb354db7ff23d494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AQUAS-Lite/Shaders/AQUAS-Lite_Backface.shader using Guid(6c5f1c7411ec6004fb354db7ff23d494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbfe1f9c7f2d5a1de12b8fda04b862b2') in 0,027219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000035 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunset_Cubemap.mat
+  artifactKey: Guid(f5dcd562bbe8e6741845a6ba29547444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunset_Cubemap.mat using Guid(f5dcd562bbe8e6741845a6ba29547444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6442bbbb65a750a5aaa2431f3b286a60') in 0,024356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000045 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat
+  artifactKey: Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat using Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28eec3e9d190fecf9c18a0ca4c7312d1') in 0,025885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000043 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Sunless_Cubemap.mat
+  artifactKey: Guid(400d8db5104338b428633f2079c1b88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Sunless_Cubemap.mat using Guid(400d8db5104338b428633f2079c1b88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64a801b93b11704a8aa5e43669912b87') in 0,025703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000065 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(8c94435c262dc614799eb36fd36c5b4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat using Guid(8c94435c262dc614799eb36fd36c5b4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a54b14d08fe310399e0d6a27a7e6fe7c') in 0,033061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000092 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat
+  artifactKey: Guid(87567e7d36a377546a61db55aebf554c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat using Guid(87567e7d36a377546a61db55aebf554c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69e9aaa4292d79e9738cdcc9e7f0b38c') in 0,029522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0,000058 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.png
+  artifactKey: Guid(90bac99dc822bf641b140cdc291b845e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.png using Guid(90bac99dc822bf641b140cdc291b845e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dbd2a6b84c973adb7fe77d5a67b304b') in 0,056806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000057 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer
+  artifactKey: Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer using Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c02643a1d5e44fa3286997139e4137ce') in 0,021491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0,000038 seconds.
+  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/New Terrain.asset
+  artifactKey: Guid(a4503dc03081cd84aa03d1a3fb0dc910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/New Terrain.asset using Guid(a4503dc03081cd84aa03d1a3fb0dc910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37874c443672fe5267705402a26a8112') in 0,323212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0,000131 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Brush_Flower.png
+  artifactKey: Guid(0d383f0cd0395064eb4b64619b2840f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Brush_Flower.png using Guid(0d383f0cd0395064eb4b64619b2840f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46f332d2853db0cfdd9e6b4c19a161bb') in 0,062005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000113 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.png
+  artifactKey: Guid(6185794ad33085a4a9f8446781cb8f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.png using Guid(6185794ad33085a4a9f8446781cb8f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef23b9f659629901f2a533f88994972c') in 0,047278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000106 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat
+  artifactKey: Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat using Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38a7cd9133cc4385c2e1a8f17c975280') in 0,011697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000220 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png
+  artifactKey: Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png using Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18e110ca5903d47fcef0a3aca7877c9a') in 0,047887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000043 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png
+  artifactKey: Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png using Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6616876cfffcc243f5a8b993f358f9f7') in 0,050178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000229 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat
+  artifactKey: Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat using Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7b4452eda58426ab02daa80edc9da3e') in 0,011252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000207 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat
+  artifactKey: Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat using Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6cd8538517cd89c796159b7e5db3bf2') in 0,013667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000036 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat
+  artifactKey: Guid(6e00f8b39315691449f256740a5cb862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat using Guid(6e00f8b39315691449f256740a5cb862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1270a09cf077b8c5b00ca9ca0064de9f') in 0,009810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000039 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.mat
+  artifactKey: Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.mat using Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4542947df4ca18e7439c94a2a6857933') in 0,012671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000059 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png
+  artifactKey: Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png using Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1be20893afd629270bcfc356eefeaa9d') in 0,045302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,005432 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat
+  artifactKey: Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat using Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '619f1e8ae42bd605e7ece05e1ed01035') in 0,015323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000044 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat
+  artifactKey: Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat using Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b90389d8abdc04a805f0748a0017ed3') in 0,010891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000158 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat
+  artifactKey: Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat using Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '899d15275a20bdd463908475f93953a3') in 0,011693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0,000033 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png
+  artifactKey: Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png using Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b6d51d75742207f158709af7cdf0cef') in 0,045825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000136 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png
+  artifactKey: Guid(99b254ad4e7668d419be526ebb66b549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png using Guid(99b254ad4e7668d419be526ebb66b549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0012b8d23d411d0ca1fbd4c8309cf3f') in 0,053622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000375 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png
+  artifactKey: Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png using Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3478e07668988be1334cb9686b2be8e') in 0,044166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000053 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.png
+  artifactKey: Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.png using Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0eea6f4a53b1c1a4b580ecfe6fe81b46') in 0,042056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000126 seconds.
+  path: Assets/AQUAS-Lite/Demo/ALiteDemoTerrain.asset
+  artifactKey: Guid(9a203924af969ff4e9e93eb1129c14a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AQUAS-Lite/Demo/ALiteDemoTerrain.asset using Guid(9a203924af969ff4e9e93eb1129c14a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Caught fatal signal - signo:11 code:1 errno:0 addr:0x8
+Obtained 52 stack frames.
+#0  0x007f09fa042520 in __sigaction
+#1  0x0055f8f23cce27 in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> >, UnityGUID>, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> >, UnityGUID> >::node* core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> >, UnityGUID>, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> >, UnityGUID> >::lookup<core::basic_string<char, core::StringStorageDefault<char> >, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> >, UnityGUID> >(core::basic_string<char, core::StringStorageDefault<char> > const&, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> >, UnityGUID> const&) const
+#2  0x0055f8f23e707d in GuidReservations::Reserve(core::basic_string<char, core::StringStorageDefault<char> > const&, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#3  0x0055f8f23e6f5b in CreateAssetToGUIDMappingV2(core::basic_string_ref<char>, AssetDatabase::CaseSensitivityMode)
+#4  0x0055f8f23608c4 in AssetDatabase::CreateAssetToGUIDMapping(core::basic_string<char, core::StringStorageDefault<char> > const&, AssetDatabase::CaseSensitivityMode)
+#5  0x0055f8f16bd330 in SplatDatabase::CreateTerrainLayersFromDeprecatedSplats()
+#6  0x0055f8f16be364 in SplatDatabase::ConvertSplatsToTerrainLayers()
+#7  0x0055f8f16be3bd in SplatDatabase::AwakeFromLoad(AwakeFromLoadMode)
+#8  0x0055f8f16e9540 in TerrainData::AwakeFromLoad(AwakeFromLoadMode)
+#9  0x0055f8f0ec2e52 in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#10 0x0055f8f0ec2526 in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks(AwakeFromLoadMode)
+#11 0x0055f8f0e941de in PersistentManager::IntegrateAllThreadedObjects()
+#12 0x0055f8f0e950ab in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#13 0x0055f8f0e93c54 in PersistentManager::ReadObject(int, AwakeFromLoadMode)
+#14 0x0055f8f01c14c1 in PPtr<Object>::operator Object*() const
+#15 0x0055f8f03df677 in AssetDatabase_CUSTOM_LoadMainAssetAtPath(ScriptingBackendNativeStringPtrOpaque*)
+#16 0x00000040c31212 in (wrapper managed-to-native) UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+#17 0x00000040c30bab in UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+#18 0x00000040c2047f in UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+#19 0x00000040c1bfca in UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+#20 0x00000040c1bd85 in UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+#21 0x00000040c1be14 in (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+#22 0x007f08c8046338 in mono_get_runtime_build_info
+#23 0x007f08c81e5453 in mono_runtime_invoke
+#24 0x007f08c81e539d in mono_runtime_invoke
+#25 0x0055f8f0de1613 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+#26 0x0055f8f0dbbff7 in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+#27 0x0055f8f24ef659 in ScriptedImporter::GenerateAssetData(AssetImportContext&)
+#28 0x0055f8f238aff8 in ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#29 0x0055f8f2389dcc in ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#30 0x0055f8f23b7caa in AssetImportWorker::Import(AssetResolver&, ImportAssetInputs const&, WorkerImportResponse&, IImportProgress*, bool*)
+#31 0x0055f8f2462939 in core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+#32 0x0055f8f249fc54 in asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+#33 0x0055f8f2480e77 in asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+#34 0x0055f8f2480971 in asio::detail::scheduler::run(std::error_code&)
+#35 0x0055f8f248511a in asio::io_context::run()
+#36 0x0055f8f24850ba in IOService::Run(bool)
+#37 0x0055f8f2455553 in AssetImportWorkerClient::Run()
+#38 0x0055f8f23f2205 in RunAssetImporterV2()
+#39 0x0055f8f1ab223a in Application::InitializeProject()
+#40 0x0055f8f20451da in InitializeUnity(void*)
+#41 0x007f09fd91c2c8 in g_main_context_check
+#42 0x007f09fd91bc44 in g_main_context_dispatch
+#43 0x007f09fd971258 in g_io_channel_new_file
+#44 0x007f09fd91b2b3 in g_main_loop_run
+#45 0x007f09fa848cfd in gtk_main
+#46 0x0055f8f2044975 in main
+#47 0x007f09fa029d90 in __libc_init_first
+#48 0x007f09fa029e40 in __libc_start_main
+#49 0x0055f8f00bf029 in _start
